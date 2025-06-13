@@ -43,7 +43,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Your trusted partner for photocopier solutions in Nashik since 2008. 
+              Your trusted partner for photocopier solutions in Nashik since 2003. 
               We specialize in Canon and Kyocera products with comprehensive support.
             </p>
             
@@ -100,33 +100,31 @@ const Footer = () => {
               <div className="flex items-start space-x-3 group">
                 <MapPin className="w-5 h-5 text-blue-400 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                 <div>
-                  <p className="text-gray-300">1, Mahadev Apt</p>
-                  <p className="text-gray-300">Nashik, Maharashtra</p>
-                  <p className="text-gray-300">India</p>
+                  <p className="text-gray-300">Shop number 16, Gurukripa appartment, Near panasonic showroom, Canada corner nashik 422002</p>
                 </div>
               </div>
               
               <a 
-                href="tel:9988776655" 
+                href="tel:9822006345" 
                 className="flex items-center space-x-3 text-gray-300 hover:text-blue-400 transition-colors duration-300 group"
               >
                 <Phone className="w-5 h-5 text-blue-400 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
-                <span>9988776655</span>
+                <span>9822006345</span>
               </a>
               
               <a 
-                href="mailto:keshav@gmail.com" 
+                href="mailto:copiersnasik@gmail.com" 
                 className="flex items-center space-x-3 text-gray-300 hover:text-blue-400 transition-colors duration-300 group"
               >
                 <Mail className="w-5 h-5 text-blue-400 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
-                <span>keshav@gmail.com</span>
+                <span>copiersnasik@gmail.com</span>
               </a>
               
               <div className="flex items-start space-x-3 group">
                 <Clock className="w-5 h-5 text-blue-400 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                 <div>
-                  <p className="text-gray-300">Mon - Sat: 9:00 AM - 7:00 PM</p>
-                  <p className="text-gray-300">Sun: 10:00 AM - 5:00 PM</p>
+                  <p className="text-gray-300">Monday-Saturday: 10:00 AM - 7:00 PM</p>
+                  <p className="text-gray-300">Sunday: Closed (open only if informed prior by customers)</p>
                 </div>
               </div>
             </div>
@@ -144,18 +142,18 @@ const Footer = () => {
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="tel:9988776655"
+                href="tel:9822006345"
                 className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-300 font-semibold text-center"
               >
                 <Phone className="inline-block w-4 h-4 mr-2" />
-                Call for Updates
+                Call Now
               </a>
               <a
-                href="mailto:keshav@gmail.com?subject=Newsletter Subscription"
+                href="mailto:copiersnasik@gmail.com?subject=Newsletter Subscription"
                 className="bg-transparent border-2 border-blue-600 text-blue-400 px-6 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition-colors duration-300 font-semibold text-center"
               >
                 <Mail className="inline-block w-4 h-4 mr-2" />
-                Email Subscribe
+                Email Us
               </a>
             </div>
           </div>
@@ -172,7 +170,7 @@ const Footer = () => {
             <div className="flex items-center space-x-6 text-sm text-gray-400">
               <span>Authorized Canon & Kyocera Dealer</span>
               <span className="hidden md:inline">•</span>
-              <span className="hidden md:inline">Serving Nashik Since 2008</span>
+              <span className="hidden md:inline">Serving Nashik Since 2003</span>
             </div>
           </div>
         </div>

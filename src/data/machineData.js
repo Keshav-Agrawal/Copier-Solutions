@@ -36,7 +36,8 @@ export const machines = [
       "Energy Efficient Design",
       "High-Capacity Toner",
       "Network Ready"
-    ]
+    ],
+    warranty: '3 months (non-extendable)'
   },
   {
     id: 2,
@@ -74,7 +75,8 @@ export const machines = [
       "Scan to Email/FTP",
       "ID Card Copy Function",
       "Quiet Operation"
-    ]
+    ],
+    warranty: '3 months (non-extendable)'
   },
   {
     id: 3,
@@ -112,7 +114,8 @@ export const machines = [
       "Multiple Paper Sources",
       "Compact Design",
       "Easy Maintenance"
-    ]
+    ],
+    warranty: '3 months (non-extendable)'
   },
   {
     id: 4,
@@ -151,7 +154,8 @@ export const machines = [
       "Flexible Paper Handling",
       "Energy Efficient",
       "User-Friendly Interface"
-    ]
+    ],
+    warranty: '3 months (non-extendable)'
   },
   {
     id: 5,
@@ -189,7 +193,8 @@ export const machines = [
       "Cloud Integration",
       "Mobile Connectivity",
       "Energy Management"
-    ]
+    ],
+    warranty: '3 months (non-extendable)'
   },
   {
     id: 6,
@@ -227,7 +232,8 @@ export const machines = [
       "Quiet Operation",
       "Easy Setup",
       "Cost Effective"
-    ]
+    ],
+    warranty: '3 months (non-extendable)'
   },
   {
     id: 7,
@@ -265,7 +271,8 @@ export const machines = [
       "Energy Star Qualified",
       "Flexible Configuration",
       "Professional Output"
-    ]
+    ],
+    warranty: '3 months (non-extendable)'
   },
   {
     id: 8,
@@ -303,6 +310,7 @@ export const machines = [
       "Mobile Integration",
       "Energy Efficient Design",
       "Comprehensive Finishing"
-    ]
+    ],
+    warranty: '3 months (non-extendable)'
   }
 ]; 

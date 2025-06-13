@@ -22,7 +22,7 @@ const RentalSales = () => {
         <div>
           <h2 className="text-2xl font-semibold mb-4 text-blue-700">Sales Terms</h2>
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
-            <li>All machines are covered by a standard 1-year warranty (extendable).</li>
+            <li>All machines are covered by a standard 3-month warranty (non-extendable).</li>
             <li>Free delivery and installation within Nashik city.</li>
             <li>On-site training for staff included with every purchase.</li>
             <li>After-sales service and annual maintenance contracts available.</li>
@@ -36,10 +36,10 @@ const RentalSales = () => {
         <h3 className="text-xl font-semibold mb-2 text-blue-800">Have Questions?</h3>
         <p className="mb-4 text-gray-700">Contact us for a personalized quote or to discuss your requirements.</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="tel:9988776655" className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all font-semibold flex items-center justify-center">
-            Call Now: 9988776655
+          <a href="tel:9822006345" className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all font-semibold flex items-center justify-center">
+            Call Now: 9822006345
           </a>
-          <a href="mailto:keshav@gmail.com" className="bg-white border-2 border-blue-600 text-blue-700 px-6 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition-all font-semibold flex items-center justify-center">
+          <a href="mailto:copiersnasik@gmail.com" className="bg-white border-2 border-blue-600 text-blue-700 px-6 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition-all font-semibold flex items-center justify-center">
             Email Us
           </a>
         </div>

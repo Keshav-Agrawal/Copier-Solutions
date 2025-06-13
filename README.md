@@ -56,7 +56,7 @@ A modern, responsive website for Copiers Solutions - your trusted partner for ph
 ## Contact Information
 
 - **Phone**: 99887 76655
-- **Email**: keshav@gmail.com
+- **Email**: copiersnasik@gmail.com
 - **Address**: 1, Mahadev Apt, Nashik, Maharashtra, India
 - **Business Hours**: 
   - Monday - Friday: 9:00 AM - 6:00 PM
@@ -186,7 +186,7 @@ Update contact details in:
 ## Support
 
 For technical support or inquiries about the website:
-- **Email**: keshav@gmail.com
+- **Email**: copiersnasik@gmail.com
 - **Phone**: 99887 76655
 
 ## License

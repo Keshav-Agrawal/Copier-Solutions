@@ -31,19 +31,19 @@ const Navigation = () => {
           <div className="flex justify-between items-center text-sm">
             <div className="flex items-center space-x-6">
               <a 
-                href="tel:9988776655" 
+                href="tel:9822006345" 
                 className="flex items-center hover:text-blue-200 transition-colors duration-300"
               >
                 <Phone className="w-4 h-4 mr-2" />
-                <span className="hidden sm:inline">Call: 9988776655</span>
-                <span className="sm:hidden">9988776655</span>
+                <span className="hidden sm:inline">Call: 9822006345</span>
+                <span className="sm:hidden">9822006345</span>
               </a>
               <a 
-                href="mailto:keshav@gmail.com" 
+                href="mailto:copiersnasik@gmail.com" 
                 className="flex items-center hover:text-blue-200 transition-colors duration-300"
               >
                 <Mail className="w-4 h-4 mr-2" />
-                <span className="hidden sm:inline">Email: keshav@gmail.com</span>
+                <span className="hidden sm:inline">Email: copiersnasik@gmail.com</span>
                 <span className="sm:hidden">Email Us</span>
               </a>
             </div>
@@ -125,7 +125,7 @@ const Navigation = () => {
           {/* CTA Button */}
           <div className="hidden lg:flex items-center space-x-4">
             <a
-              href="tel:9988776655"
+              href="tel:9822006345"
               className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 font-semibold shadow-lg"
             >
               <Phone className="inline-block w-4 h-4 mr-2" />
@@ -195,14 +195,14 @@ const Navigation = () => {
               {/* Mobile CTA */}
               <div className="pt-4 border-t border-gray-200">
                 <a
-                  href="tel:9988776655"
+                  href="tel:9822006345"
                   className="block w-full bg-blue-600 text-white text-center py-3 rounded-lg hover:bg-blue-700 transition-colors duration-300 font-semibold"
                 >
                   <Phone className="inline-block w-4 h-4 mr-2" />
                   Call for Quote
                 </a>
                 <a
-                  href="mailto:keshav@gmail.com"
+                  href="mailto:copiersnasik@gmail.com"
                   className="block w-full mt-2 bg-gray-100 text-gray-700 text-center py-3 rounded-lg hover:bg-gray-200 transition-colors duration-300 font-semibold"
                 >
                   <Mail className="inline-block w-4 h-4 mr-2" />

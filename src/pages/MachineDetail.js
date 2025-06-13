@@ -61,7 +61,7 @@ ${inquiryData.name}
     `;
 
     // Open email client
-    const mailtoLink = `mailto:keshav@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:copiersnasik@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoLink;
     
     // Close form
@@ -182,18 +182,18 @@ ${inquiryData.name}
                 <h3 className="font-semibold text-gray-900">Contact Us Directly</h3>
                 <div className="space-y-2">
                   <a
-                    href="tel:9988776655"
+                    href="tel:9822006345"
                     className="flex items-center space-x-3 text-gray-700 hover:text-blue-600"
                   >
                     <Phone size={18} />
-                    <span>99887 76655</span>
+                    <span>98220 06345</span>
                   </a>
                   <a
-                    href="mailto:keshav@gmail.com"
+                    href="mailto:copiersnasik@gmail.com"
                     className="flex items-center space-x-3 text-gray-700 hover:text-blue-600"
                   >
                     <Mail size={18} />
-                    <span>keshav@gmail.com</span>
+                    <span>copiersnasik@gmail.com</span>
                   </a>
                   <div className="flex items-start space-x-3 text-gray-700">
                     <MapPin size={18} className="mt-0.5" />
@@ -245,14 +245,14 @@ ${inquiryData.name}
               </p>
               <div className="space-y-3">
                 <a
-                  href="tel:9988776655"
+                  href="tel:9822006345"
                   className="flex items-center space-x-2 text-blue-600 hover:text-blue-700"
                 >
                   <Phone size={16} />
-                  <span className="text-sm font-medium">Call: 99887 76655</span>
+                  <span className="text-sm font-medium">Call: 98220 06345</span>
                 </a>
                 <a
-                  href="mailto:keshav@gmail.com"
+                  href="mailto:copiersnasik@gmail.com"
                   className="flex items-center space-x-2 text-blue-600 hover:text-blue-700"
                 >
                   <Mail size={16} />

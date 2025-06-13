@@ -31,7 +31,7 @@ const Home = () => {
 
   const stats = [
     { icon: Users, label: "Happy Customers", value: "500+" },
-    { icon: Award, label: "Years Experience", value: "15+" },
+    { icon: Award, label: "Years Experience", value: "20+" },
     { icon: Star, label: "Customer Rating", value: "4.8" },
     { icon: Clock, label: "Service Hours", value: "24/7" }
   ];
@@ -39,9 +39,9 @@ const Home = () => {
   const services = [
     {
       title: "Sales",
-      description: "Brand new Canon and Kyocera photocopiers with warranty",
+      description: "Brand new Canon and Kyocera photocopiers with 3-month warranty (non-extendable)",
       image: "https://s3.ap-south-1.amazonaws.com/www.cimg.in/images/2020/01/21/05/166553271_15796029231_large.jpg",
-      features: ["Latest Models", "Full Warranty", "Installation Support"]
+      features: ["Latest Models", "3-Month Warranty (Non-Extendable)", "Installation Support"]
     },
     {
       title: "Rentals",
@@ -77,6 +77,9 @@ const Home = () => {
             <p className="text-xl md:text-2xl mb-8 text-blue-100 leading-relaxed">
               Your trusted partner for Canon & Kyocera photocopiers in Nashik. 
               Sales, rentals, and genuine spare parts with expert support.
+            </p>
+            <p className="text-sm md:text-base text-blue-200 mb-2">
+              We also deal in lamination and spiral binding machines along with their consumable parts and required products.
             </p>
           </div>
         </div>

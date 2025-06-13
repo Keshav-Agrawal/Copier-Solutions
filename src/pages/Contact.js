@@ -32,7 +32,7 @@ Message:
 ${formData.message}
     `;
     
-    const mailtoLink = `mailto:keshav@gmail.com?subject=${encodeURIComponent(formData.subject || 'Contact Form Inquiry')}&body=${encodeURIComponent(emailBody)}`;
+    const mailtoLink = `mailto:copiersnasik@gmail.com?subject=${encodeURIComponent(formData.subject || 'Contact Form Inquiry')}&body=${encodeURIComponent(emailBody)}`;
     window.location.href = mailtoLink;
   };
 
@@ -40,23 +40,23 @@ ${formData.message}
     {
       icon: Phone,
       title: "Call Us",
-      details: "9988776655",
+      details: "9822006345",
       description: "Available 24/7 for urgent support",
-      action: "tel:9988776655",
+      action: "tel:9822006345",
       color: "blue"
     },
     {
       icon: Mail,
       title: "Email Us",
-      details: "keshav@gmail.com",
+      details: "copiersnasik@gmail.com",
       description: "We'll respond within 24 hours",
-      action: "mailto:keshav@gmail.com",
+      action: "mailto:copiersnasik@gmail.com",
       color: "green"
     },
     {
       icon: MapPin,
       title: "Visit Us",
-      details: "1, Mahadev Apt, Nashik",
+      details: "Shop number 16, Gurukripa appartment, Near panasonic showroom, Canada corner nashik 422002",
       description: "Maharashtra, India",
       action: "#",
       color: "purple"
@@ -64,8 +64,8 @@ ${formData.message}
     {
       icon: Clock,
       title: "Business Hours",
-      details: "Mon - Sat: 9:00 AM - 7:00 PM",
-      description: "Sunday: 10:00 AM - 5:00 PM",
+      details: "Monday-Saturday: 10:00 AM - 7:00 PM",
+      description: "Sunday: Closed (open only if informed prior by customers)",
       action: "#",
       color: "orange"
     }
@@ -113,14 +113,14 @@ ${formData.message}
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="tel:9988776655" 
+                href="tel:9822006345" 
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
               >
                 <Phone className="inline-block w-5 h-5 mr-2" />
-                Call: 9988776655
+                Call: 9822006345
               </a>
               <a 
-                href="mailto:keshav@gmail.com" 
+                href="mailto:copiersnasik@gmail.com" 
                 className="bg-white text-blue-900 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
               >
                 <Mail className="inline-block w-5 h-5 mr-2" />
@@ -329,14 +329,14 @@ ${formData.message}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a 
-                    href="tel:9988776655"
+                    href="tel:9822006345"
                     className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-300 font-semibold text-center"
                   >
                     <Phone className="inline-block w-4 h-4 mr-2" />
                     Call Now
                   </a>
                   <a 
-                    href="https://wa.me/919988776655"
+                    href="https://wa.me/919822006345"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors duration-300 font-semibold text-center"
@@ -371,9 +371,9 @@ ${formData.message}
                     <MapPin className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-gray-900">Copiers Solutions</p>
-                      <p className="text-gray-600">1, Mahadev Apt</p>
-                      <p className="text-gray-600">Nashik, Maharashtra</p>
-                      <p className="text-gray-600">India</p>
+                      <p className="text-gray-600">Shop number 16, Gurukripa appartment</p>
+                      <p className="text-gray-600">Near panasonic showroom, Canada corner nashik 422002</p>
+                      <p className="text-gray-600">Maharashtra, India</p>
                     </div>
                   </div>
                   
@@ -381,7 +381,7 @@ ${formData.message}
                     <Phone className="w-6 h-6 text-blue-600 flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-gray-900">Phone</p>
-                      <a href="tel:9988776655" className="text-blue-600 hover:text-blue-700">9988776655</a>
+                      <a href="tel:9822006345" className="text-blue-600 hover:text-blue-700">9822006345</a>
                     </div>
                   </div>
                   
@@ -389,7 +389,7 @@ ${formData.message}
                     <Mail className="w-6 h-6 text-blue-600 flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-gray-900">Email</p>
-                      <a href="mailto:keshav@gmail.com" className="text-blue-600 hover:text-blue-700">keshav@gmail.com</a>
+                      <a href="mailto:copiersnasik@gmail.com" className="text-blue-600 hover:text-blue-700">copiersnasik@gmail.com</a>
                     </div>
                   </div>
                   
@@ -397,29 +397,26 @@ ${formData.message}
                     <Clock className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-gray-900">Business Hours</p>
-                      <p className="text-gray-600">Monday - Saturday: 9:00 AM - 7:00 PM</p>
-                      <p className="text-gray-600">Sunday: 10:00 AM - 5:00 PM</p>
+                      <p className="text-gray-600">Monday-Saturday: 10:00 AM - 7:00 PM</p>
+                      <p className="text-gray-600">Sunday: Closed (open only if informed prior by customers)</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="h-96 bg-gray-200 rounded-xl overflow-hidden shadow-lg">
-              <div 
-                className="w-full h-full bg-cover bg-center"
-                style={{
-                  backgroundImage: "url('https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')"
-                }}
-              >
-                <div className="w-full h-full bg-blue-900 bg-opacity-50 flex items-center justify-center">
-                  <div className="text-center text-white">
-                    <MapPin className="w-16 h-16 mx-auto mb-4" />
-                    <h3 className="text-2xl font-bold mb-2">Find Us Here</h3>
-                    <p className="text-blue-100">1, Mahadev Apt, Nashik</p>
-                  </div>
-                </div>
-              </div>
+            <div className="h-96 bg-gray-200 rounded-xl overflow-hidden shadow-lg flex flex-col items-center justify-center relative">
+              <iframe
+                title="Copiers Solutions Location"
+                src="https://www.google.com/maps?q=2Q2C%2BJ2+Nashik,+Maharashtra&output=embed&z=18"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full h-full"
+              ></iframe>
             </div>
           </div>
         </div>

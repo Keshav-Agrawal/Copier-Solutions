@@ -6,7 +6,7 @@ const About = () => {
     {
       icon: Shield,
       title: "Quality Assurance",
-      description: "We provide only genuine products from authorized dealers with full warranty coverage."
+      description: "We provide only genuine products from authorized dealers with 3-month warranty (non-extendable)."
     },
     {
       icon: Users,
@@ -30,7 +30,7 @@ const About = () => {
       name: "Keshav Agrawal",
       position: "Founder & CEO",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      description: "15+ years of experience in photocopier industry with expertise in Canon and Kyocera products."
+      description: "20+ years of experience in photocopier industry with expertise in Canon and Kyocera products."
     },
     {
       name: "Rajesh Sharma",
@@ -73,14 +73,14 @@ const About = () => {
               About <span className="text-blue-300">Copiers Solutions</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 leading-relaxed">
-              Your trusted partner for photocopier solutions in Nashik since 2008. 
+              Your trusted partner for photocopier solutions in Nashik since 2003. 
               We specialize in Canon and Kyocera products with comprehensive support.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
               <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6 border border-white border-opacity-20">
                 <Award className="w-8 h-8 text-blue-300 mx-auto mb-3" />
-                <h3 className="font-semibold mb-2">15+ Years</h3>
+                <h3 className="font-semibold mb-2">20+ Years</h3>
                 <p className="text-blue-100">Industry Experience</p>
               </div>
               <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6 border border-white border-opacity-20">
@@ -105,7 +105,7 @@ const About = () => {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Founded in 2008, Copiers Solutions began as a small family business with a simple mission: 
+                Founded in 2003, Copiers Solutions began as a small family business with a simple mission: 
                 to provide reliable photocopier solutions to businesses in Nashik. What started as a local 
                 service provider has grown into the region's most trusted photocopier dealer.
               </p>
@@ -122,12 +122,12 @@ const About = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src="https://sc04.alicdn.com/kf/He1642fa8ce9e419ca4fdf9c67c03aaddG/237367162/He1642fa8ce9e419ca4fdf9c67c03aaddG.jpg"
                 alt="Modern Office Environment"
                 className="rounded-xl shadow-lg w-full h-96 object-cover"
               />
               <div className="absolute -bottom-6 -right-6 bg-blue-600 text-white p-6 rounded-xl shadow-lg">
-                <div className="text-3xl font-bold">15+</div>
+                <div className="text-3xl font-bold">20+</div>
                 <div className="text-sm">Years of Excellence</div>
               </div>
             </div>
@@ -207,14 +207,14 @@ const About = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="tel:9988776655" 
+              href="tel:9822006345" 
               className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors duration-300"
             >
               <Phone className="inline-block w-5 h-5 mr-2" />
-              Call: 9988776655
+              Call: 9822006345
             </a>
             <a 
-              href="mailto:keshav@gmail.com?subject=Business Inquiry&body=Hi, I would like to know more about your photocopier solutions. Please contact me." 
+              href="mailto:copiersnasik@gmail.com?subject=Business Inquiry&body=Hi, I would like to know more about your photocopier solutions. Please contact me." 
               className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-blue-600 transition-colors duration-300"
             >
               <Mail className="inline-block w-5 h-5 mr-2" />
@@ -225,7 +225,7 @@ const About = () => {
           <div className="mt-8 pt-8 border-t border-blue-400">
             <div className="flex items-center justify-center text-blue-100">
               <MapPin className="w-5 h-5 mr-2" />
-              <span>Visit us at: 1, Mahadev Apt, Nashik</span>
+              <span>Visit us at: Shop number 16, Gurukripa appartment, Near panasonic showroom, Canada corner nashik 422002</span>
             </div>
           </div>
         </div>
